@@ -31,10 +31,14 @@ body{
 }
 
 .links{
-    width: 45%;
+    width: 70%;
     display: flex;
     text-align: right;
-    justify-content: space-around;
+    justify-content: flex-end;
+}
+
+.links div{
+    margin-right: 5%;
 }
 
 a{
@@ -44,6 +48,11 @@ a{
 
 a:hover{
     color: #F9C432;
+    
+}
+
+#box1:hover {
+   border-color: #F9C432;
 }
 
 /*end of header*/
@@ -54,18 +63,23 @@ a:hover{
     margin-top: 60px;
     position:relative;
     height:300px;
+    text-align: center;
 }
+
+
 
 .logo img{
     position: absolute;
     top: -10%;
-    left: 35.5%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
     height:300px;
     z-index: 1;
 }
 
 .bar{
-/*    margin-top:30px;*/
     position:relative;
     left:0;
     width: 100%;
@@ -85,7 +99,6 @@ a:hover{
 .info{
     position: relative;
     margin:4%;
-    /*padding-top: 20px;*/
     padding-left:20%;
     padding-right:20%;
     font-size: 20px;
